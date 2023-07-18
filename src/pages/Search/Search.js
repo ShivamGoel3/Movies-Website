@@ -55,13 +55,15 @@ const Search = () => {
   return (
     <div>
       <ThemeProvider theme={darkTheme}>
+      <span class="pageTitle">search</span>
         <div className="search">
           <TextField
-            //  style={{ flex: 1 }}
-           // className="searchBox"
-            label="Search"
-            
+          //   style={{ flex: 1 }}
+           className="searchBox"
+            // label="Search"
+           placeholder="Search"
             variant="filled"
+
             
             onChange={(e) => setSearchText(e.target.value)}
           />
