@@ -3,17 +3,23 @@
 .ContentModal__landscape {
   object-fit: contain;
   border-radius: 10px;
+  
 }
-
+/* .body{
+} */
 .ContentModal__portrait {
   display: none;
   object-fit: contain;
   border-radius: 10px;
+    /* background-color:rgb(118, 146, 164); */
+
 }
 
 .tagline {
   padding-bottom: 10px;
   align-self: center;
+    /* background-color:rgb(118, 146, 164); */
+
 }
 
 .ContentModal {
@@ -24,6 +30,10 @@
   width: 100%;
   overflow-y: scroll;
   scrollbar-width: none;
+  /* background-color:rgb(118, 146, 164); */
+  /* padding-top: 12px; */
+
+  /* background-color: rgb(118, 146, 164); */
 }
 
 .ContentModal::-webkit-scrollbar {
@@ -39,6 +49,8 @@
   font-family: "Roboto", sans-serif;
   justify-content: space-evenly;
   font-weight: 300;
+  /* background-color:rgb(118, 146, 164); */
+
 }
 
 .ContentModal__title {

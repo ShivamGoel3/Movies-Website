@@ -7,6 +7,7 @@ import TrendingUpOutlinedIcon from '@mui/icons-material/TrendingUpOutlined';
 import MovieIcon from '@mui/icons-material/Movie';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import { useNavigate } from 'react-router-dom';
+import LogoutIcon from '@mui/icons-material/Logout';
 const useStyles=makeStyles({
 root:{
     width:"100%",
@@ -29,6 +30,7 @@ export default function SimpleBottomNavigation() {
     else if (value === 1) history("/home/movies");
     else if (value === 2) history("/home/series");
     else if (value === 3) history("/home/search");
+    else if (value === 4) history("/");
   },[value,history]);
   return (
     
@@ -53,6 +55,10 @@ export default function SimpleBottomNavigation() {
         <BottomNavigationAction 
         style={{color:"black"}}
         label="Search" icon={<SearchOutlinedIcon />} />
+
+        <BottomNavigationAction 
+        style={{color:"black"}}
+        label="Log out" icon={<LogoutIcon />} />
       </BottomNavigation>
     
   );

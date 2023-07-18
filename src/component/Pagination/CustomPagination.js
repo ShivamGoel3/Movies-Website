@@ -4,7 +4,7 @@ import { createTheme, ThemeProvider } from "@material-ui/core";
 
 const darkTheme = createTheme({
   palette: {
-    type: "dark",
+     type: "dark",
   },
 });
 
